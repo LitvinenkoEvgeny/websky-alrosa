@@ -29,7 +29,7 @@
                     return url.replace('src/', '');
                 }
             }))
-            .pipe(concat("templates-rossia.js"))
+            .pipe(concat("templates-alrosa.js"))
             .pipe(uglify())
             .pipe(gulp.dest('build/'));
     });
