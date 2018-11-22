@@ -1,1 +1,1 @@
-require('./directives/isRoute');
+require('./directives/replaceWith');
